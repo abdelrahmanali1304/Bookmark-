@@ -1,0 +1,97 @@
+
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #f7ecde;
+}
+
+main {
+  padding-block: 50px;
+}
+header h1 {
+  font-size: 3.8rem;
+  color: black;
+  position: relative;
+  font-family:"Pacifico", cursive;
+  isolation: isolate;
+  margin-bottom: 70px;
+}
+header h1::before {
+  content: "";
+  position: absolute;
+  background-color: yellow;
+  width: 100%;
+  height: 30%;
+  left: 0;
+  bottom: 10px;
+  z-index: -1;
+  transition: height 1s ease;
+}
+header h1:hover::before {
+  height: 70%;
+}
+.Bookmarker-body {
+  border-block: dotted 2px #212529;
+}
+.Bookmarker-body h2{
+  margin-top: 30px;
+  font-family: "Righteous", sans-serif;
+  background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+
+}
+main label{
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family:"PT Sans Caption", sans-serif;
+  color: black;
+}
+
+.btn-submit{
+  text-align: center;
+  background-color:orangered;
+  color: white;
+  
+  border: solid 1px orangered;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  
+}
+.btn-submit:hover{
+  background-color:RGBA(187, 65, 32, 0.53);
+}
+
+.clear{
+  text-align: center;
+  background-color:red;
+  color: white;
+  
+  border: solid 1px orangered;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  
+}
+.btn-submit:hover{
+  background-color:RGBA(187, 65, 32, 0.53);
+}
+
+
+
+
+
+main .table{
+  margin-top: 30px;
+  background-color:white;
+  font-family: "PT Sans Caption", sans-serif;
+  color: black;
+  
+}
+.btn-visit{
+  background-color:#9eb23b;
+}
+.btn-visit:hover{
+  background-color: #9eb23b;
+}
+
